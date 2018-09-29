@@ -1,0 +1,1 @@
+public int binarySearch(int[] a, int n, int key) {		int left = 0, right = n, mid = 0;		while(left < right) {			mid = (right + left) / 2;			if(a[mid] == key) {				return mid;			}			else if(a[mid] < key) {				left = mid + 1;			}			else if(a[mid] > key) {				right = mid;			}		}		return -1;	}

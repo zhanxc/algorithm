@@ -1,0 +1,1 @@
+public int search(int[] a, int n, int key) {	int i = 0;	a[n] = key;	while(a[i] != key) i++;	if(i == n) return -1;	return i;}

@@ -1,0 +1,1 @@
+public int solve (int[] a, int i, int m) {	if(m == 0) return true;	if(i > n) return false;	int res = sovle(i + 1, m) || sovle(i, m - a[i]);	return res;}
