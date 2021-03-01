@@ -1,2 +1,1 @@
-all kinds of simple sort motheds (Java implements)
-enjoy it !
+基于Java语言实现各个简单算法，用于巩固算法知识
